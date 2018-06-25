@@ -38,22 +38,23 @@ nav {
 header {
     padding-top: 69px;
     height: 700px;
-    background-image: url(images/img-mission-background.jpg);
+    background-image: url(./images/img-mission-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
     max-width: 1200px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .header-text {
-    display: flex;
-    flex-flow: column;
     background-color: black;
     width: 100%;
 
+}
+
+.header-text h2, .header-text h4  {
+    margin: 15px 0px;
 }
 
 .upper-content-container {
@@ -87,11 +88,12 @@ upper-content-image-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url(images/img-locations-background.jpg);
+    background-image: url(./images/img-locations-background.jpg);
     background-size: cover;
     max-width: 1200px;
-    height: 500px;
+    min-height: 500px;
     margin: 0 auto;
+    padding-bottom: 25px;
 }
 
 .lower-content-location-container {
@@ -99,10 +101,6 @@ upper-content-image-container {
     flex-flow: wrap row;
     align-items: center;
     justify-content: center;
-}
-
-.lower-content-location:nth-of-type(1) {
-    color: red;
 }
 
 .lower-content-location {
@@ -120,3 +118,4 @@ footer #copyright {
     text-align: left;
     padding-left: 20px;
 }
+
