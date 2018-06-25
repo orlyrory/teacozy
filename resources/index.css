@@ -59,7 +59,8 @@ header {
 
 }
 
-.header-text h2, .header-text h4  {
+.header-text h2,
+.header-text h4 {
     margin: 15px 0px;
 }
 
@@ -71,15 +72,15 @@ header {
 }
 
 upper-content-image-container {
- display: flex;
- flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .upper-content-image-box {
- width: 300px;
- display: inline-flex;
- flex-direction: column;
- margin: 10px;
+    width: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px;
 }
 
 .upper-content-image-box img {
@@ -123,7 +124,7 @@ upper-content-image-container {
 /* FOOTER STYLING */
 
 footer a {
-     text-decoration: none;
+    text-decoration: none;
 }
 
 footer #copyright {
