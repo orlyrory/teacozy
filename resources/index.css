@@ -80,3 +80,16 @@ upper-content-image-container {
     padding-top: 10px;
     margin: 0;
 }
+
+.lower-content-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/img-locations-background.jpg);
+    background-size: cover;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lower-content-location {
+    
+}
